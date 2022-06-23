@@ -1,0 +1,338 @@
+body {
+    margin: 0;
+}
+
+.loading{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(255, 226, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50pt;
+}
+.cursor{
+    width: 50px;
+    height: 50px; 
+    position: fixed;
+    border-radius: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    pointer-events: none;
+}
+
+h1,h2,h3,h4,h5,span{
+    font-family: 'marcellus', serif;
+}
+
+#intro .lead{
+    font-family: 'marcellus', serif;
+    font-size: 25pt;
+}
+.btn{
+    background: #FFA042;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 15px;
+    font-size: 15px;
+    
+}
+#intro h1{
+    font-size: 45PT;
+}
+#intro .jumbotron{
+    height: 60vh; 
+    background-image: url(flower0.jpg);
+    background-size: contain;
+}
+#intro .container{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.container a{
+    margin: 0 20px;
+}
+#second h3{
+    font-size: 35pt;
+    line-height: 1.5;
+    margin-bottom: 70px;
+}
+#second h4{
+    font-size: 20pt;
+    line-height: 1.5;
+}
+#second{
+    padding: 80px
+    
+}
+#second img{
+    width: 200px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+#second p{
+    line-height: 1.3;
+    font-size: 12pt;
+    color: #7b7b7b;
+    font-family: 'marcellus', serif;
+}
+#second p.lead{
+    color: black;
+    font-family: 'marcellus', serif;
+}
+#latest{
+    padding: 0px 0px;
+    background: rgb(255, 249, 238);
+    
+}
+#latest h3{
+    margin-bottom: 80px;
+    margin-top: 80px;
+    font-size: 35pt;
+}
+img{
+    max-width: 100%;
+}
+#latest .upper{
+    position: relative;
+}
+#latest .innertext{
+    position: absolute;
+    bottom: 13px;
+    left: 15px;
+    color: white;
+}
+#latest span{
+    font-size: 15pt;
+}
+#latest .innertext span{
+    background: rgba(255,255,255,0.3);
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+#latest .innertext h4{
+    margin-top: 8px;
+}
+#latest .lower h3{
+    font-size: 24px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+#latest .outer{
+    background: white;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.08);
+    border-radius: 5%;
+}
+#latest .lower{
+    padding: 6px 20px 20px 20px;
+}
+#latest a{
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    text-decoration: none;  
+}
+#latest .upper img{
+    border-radius: 5% 5% 0 0;
+}
+#email{
+    padding: 80px 0;
+}
+#email h3{
+    margin-bottom: 80px;
+}
+footer{
+    border-top: solid 2px rgb(255, 218, 159);
+    padding: 80px 0px;
+}
+#email .input-group{
+    margin-bottom: 35px;
+}
+#last{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: rgb(255, 245, 227);
+}
+#last h3{
+    margin-bottom: 80px;
+    font-size: 35pt;
+}
+#last .upper{
+    position: relative;
+}
+#last .innertext{
+    position: absolute;
+    bottom: 13px;
+    left: 15px;
+    color: white;
+}
+#last span{
+    font-size: 15pt;
+}
+#last .innertext span{
+    background: rgba(255,255,255,0.3);
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+#last .innertext h4{
+    margin-top: 8px;
+}
+#last .lower h3{
+    font-size: 24px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+#last .outer{
+    background: white;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.08);
+    border-radius: 5%;
+}
+#last .lower{
+    padding: 6px 20px 20px 20px;
+}
+#last a{
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    text-decoration: none;  
+}
+#last .upper img{
+    border-radius: 5% 5% 0 0;
+}
+
+#last1{
+    padding-top: 0px;
+    padding-bottom: 80px;
+    background: rgb(255, 249, 238);
+}
+#last1 h3{
+    margin-bottom: 80px;
+    font-size: 35pt;
+}
+#last1 .upper{
+    position: relative;
+}
+#last1 .innertext{
+    position: absolute;
+    bottom: 13px;
+    left: 15px;
+    color: white;
+}
+#last1 span{
+    font-size: 15pt;
+}
+#last1 .innertext span{
+    background: rgba(255,255,255,0.3);
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+#last1 .innertext h4{
+    margin-top: 8px;
+}
+#last1 .lower h3{
+    font-size: 24px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+#last1 .outer{
+    background: white;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.08);
+    border-radius: 5%;
+}
+#last1 .lower{
+    padding: 6px 20px 20px 20px;
+}
+#last1 a{
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    text-decoration: none;  
+}
+#last1 .upper img{
+    border-radius: 5% 5% 0 0;
+}
+
+.flower2{
+    filter: blur(1px) grayscale(1);
+    transition: all .5s;
+}
+.flower2:hover{
+    filter: blur(0) grayscale(0);
+}
+.flower3{
+    filter: blur(1px) grayscale(1);
+    transition: all .5s;
+}
+.flower3:hover{
+    filter: blur(0) grayscale(0);
+}
+.flower4{
+    filter: blur(1px) grayscale(1);
+    transition: all .5s;
+}
+.flower4:hover{
+    filter: blur(0) grayscale(0);
+}.flower5{
+    filter: blur(1px) grayscale(1);
+    transition: all .5s;
+}
+.flower5:hover{
+    filter: blur(0) grayscale(0);
+}
+.flower6{
+    filter: blur(1px) grayscale(1);
+    transition: all .5s;
+}
+.flower6:hover{
+    filter: blur(0) grayscale(0);
+}
+.flower7{
+    filter: blur(1px) grayscale(1);
+    transition: all .5s;
+}
+.flower7:hover{
+    filter: blur(0) grayscale(0);
+}
+.flower8{
+    filter: blur(1px) grayscale(1);
+    transition: all .5s;
+}
+.flower8:hover{
+    filter: blur(0) grayscale(0);
+}
+.flower9{
+    filter: blur(1px) grayscale(1);
+    transition: all .5s;
+}
+.flower9:hover{
+    filter: blur(0) grayscale(0);
+}
+.flower10{
+    filter: blur(1px) grayscale(1);
+    transition: all .5s;
+}
+.flower10:hover{
+    filter: blur(0) grayscale(0);
+}
+
+.typing{
+    display: inline-block;
+    width: 0px;
+    height: 72px;
+    white-space: nowrap;
+   overflow: hidden;
+   animation: typing 3s forwards steps(30); 
+}
+
+@keyframes typing {
+    form {
+        width: 0;
+    }
+    to {width: 860.8px;
+        
+    }
+}
